@@ -11,6 +11,7 @@ body {
   background-color: #232323;
 }
 
+/* NAV BAR START */
 .nav__container {
   display: flex;
   justify-content: space-between;
@@ -95,6 +96,11 @@ body {
     transition: all 0.3s ease;
   }
 
+  .resume__container h2 {
+    color: black;
+    text-align: center;
+  }
+
 }
 
 .nav__active {
@@ -122,3 +128,48 @@ body {
 .line3 {
   transform: rotate(45deg) translate(-5px, -6px);
 }
+
+/* NAV BAR END */
+
+/* RESUME START */
+.resume__container {
+  background-color: white;
+  width: 100vw;
+  height: 100%;
+  color: black;
+}
+
+.resume__name {
+  font-size: 54px;
+  text-align: center;
+  padding: 20px;
+  color: black;
+}
+
+.resume__container h5 {
+  color: black;
+  text-align: center;
+}
+
+.resume__container h2, h3, li, p, i {
+  color: black;
+  margin-top: 4%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.resume__container h3 {
+  margin-top: 2%;
+}
+
+.resume__container p {
+  margin-top: 2%;
+  line-height: 6vh;
+}
+
+.resume__container i {
+  margin-top: 2%;
+  font-size: 18px;
+}
+
+/* RESUME END */

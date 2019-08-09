@@ -9,8 +9,8 @@ import Contact from './components/contact';
 function App() {
   return (
     <div className="App">
-      <Navbar />
       <Router>
+          <Navbar />
           <Switch>
             <Route path="/home" render={() => <Home />} />
             <Route path="/portfolio" render={() => <Portfolio />} />
