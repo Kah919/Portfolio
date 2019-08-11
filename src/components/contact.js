@@ -3,7 +3,9 @@ import React from 'react';
 const Contact = () => {
   return(
     <div className="contact__container">
-      <h1> Contact </h1>
+      <div className= "contact">
+        <h1> Hello! I'm a Front-End Developer </h1>
+      </div>
     </div>
   )
 }

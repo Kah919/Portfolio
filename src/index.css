@@ -5,11 +5,14 @@
   color: white;
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 2px;
+  overflow-x: hidden;
 }
 
 body {
   background-color: #232323;
 }
+
+
 
 /* NAV BAR START */
 .nav__container {
@@ -149,22 +152,36 @@ body {
 .resume__container h5 {
   color: black;
   text-align: center;
+  margin-bottom: 10px;
 }
 
-.resume__container h2, h3, li, p, i {
+.resume__container h2, h3, h4, p, i {
   color: black;
-  margin-top: 4%;
+  margin-top: 2%;
   margin-left: 10%;
   margin-right: 10%;
 }
 
-.resume__container h3 {
-  margin-top: 2%;
+.resume__container h2 {
+  background-color: black;
+  padding: 0.5%;
+  color: white;
 }
 
 .resume__container p {
-  margin-top: 2%;
+  margin-top: 1%;
   line-height: 6vh;
+}
+
+.resume__container a {
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.project__caption {
+  font-style: italic;
+  font-size: 20px;
 }
 
 .resume__container i {
@@ -172,4 +189,48 @@ body {
   font-size: 18px;
 }
 
+.project__container {
+  padding-bottom: 2%;
+}
+
+.project__container h3 {
+  font-size: 24px;
+}
+
+.project__container p {
+  font-size: 16px;
+}
+
+.project__container a {
+  font-size: 24px;
+}
+
+.work__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.work__container h2 {
+  background-color: white;
+  color: black;
+}
+
+.work__container h4 {
+  margin-left: 11%;
+  margin-right: 11%;
+  margin-top: 5px;
+  font-style: italic;
+}
+
 /* RESUME END */
+
+/* START OF CONTACT */
+.contact {
+  position: fixed;
+  top: 50%;
+  left: 35%;
+  right: 35%;
+}
+
+
+/* END OF CONTACT */
