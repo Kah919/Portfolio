@@ -1,5 +1,6 @@
 {
   "files": {
+<<<<<<< HEAD
     "main.css": "/Portfolio/static/css/main.40155745.chunk.css",
     "main.js": "/Portfolio/static/js/main.0d21db77.chunk.js",
     "main.js.map": "/Portfolio/static/js/main.0d21db77.chunk.js.map",
@@ -23,5 +24,18 @@
     "static/media/ohsnap3.png": "/Portfolio/static/media/ohsnap3.2d986ff7.png",
     "static/media/stock1.png": "/Portfolio/static/media/stock1.59e18e85.png",
     "static/media/stock2.png": "/Portfolio/static/media/stock2.4bb258ce.png"
+=======
+    "main.css": "/Kah919/Portfolio/static/css/main.bf826848.chunk.css",
+    "main.js": "/Kah919/Portfolio/static/js/main.33a2212f.chunk.js",
+    "main.js.map": "/Kah919/Portfolio/static/js/main.33a2212f.chunk.js.map",
+    "runtime~main.js": "/Kah919/Portfolio/static/js/runtime~main.2409534b.js",
+    "runtime~main.js.map": "/Kah919/Portfolio/static/js/runtime~main.2409534b.js.map",
+    "static/js/2.e7624e49.chunk.js": "/Kah919/Portfolio/static/js/2.e7624e49.chunk.js",
+    "static/js/2.e7624e49.chunk.js.map": "/Kah919/Portfolio/static/js/2.e7624e49.chunk.js.map",
+    "index.html": "/Kah919/Portfolio/index.html",
+    "precache-manifest.108997d93cfa81c369fef6d6ef51b92d.js": "/Kah919/Portfolio/precache-manifest.108997d93cfa81c369fef6d6ef51b92d.js",
+    "service-worker.js": "/Kah919/Portfolio/service-worker.js",
+    "static/css/main.bf826848.chunk.css.map": "/Kah919/Portfolio/static/css/main.bf826848.chunk.css.map"
+>>>>>>> Updates
   }
 }
