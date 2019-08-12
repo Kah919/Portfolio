@@ -7,7 +7,7 @@ const Resume = () => {
     <div className="resume__container">
       <h1 className="resume__name"> Kah Yap </h1>
       <h5> (718) 708-1881 | kahyap13@gmail.com </h5>
-      <h5> <a href="https://github.com/kah919" className="fa fa-github-alt"> GitHub</a> | <a href="https://www.linkedin.com/in/kah-m-yap/" className="fa fa-linkedin-square"> LinkedIn</a> | <a href="https://medium.com/@kahyap13" className="fa fa-medium"> Medium</a> </h5>
+      <h5> <a href="https://github.com/kah919" className="fa fa-github-alt"> GitHub </a> | <a href="https://www.linkedin.com/in/kah-m-yap/" className="fa fa-linkedin-square"> LinkedIn </a> | <a href="https://medium.com/@kahyap13" className="fa fa-medium"> Medium </a> </h5>
 
       <h2> Summary </h2>
       <p>
@@ -25,21 +25,21 @@ const Resume = () => {
       </div>
 
       <div className="project__container">
-        <h3> Web Stock: React | Ruby on Rails - <a href="https://github.com/Kah919/ttp-fs-frontend" className="fa fa-github-alt"> </a></h3>
+        <h3> Web Stock: React | Ruby on Rails - <a href="https://github.com/Kah919/ttp-fs-frontend" className="fa fa-github-alt"> </a> <a href="https://stocks-simulator-front.herokuapp.com/" className="fa fa-gamepad"></a></h3>
         <p className="project__caption"> Buy stocks at their current price and watch how your stocks grow over time </p>
         <i className="fa fa-github-alt"> User information is stored in Redux store for immediate access to the user, stock, and transaction model </i>
         <i className="fa fa-github-alt"> Fetched from an Rails back-end server and external API to view a whether a user is profiting </i>
       </div>
 
       <div className="project__container">
-        <h3> Web Atlas: JavaScript - <a href="https://github.com/milespucarelli/Flatiron-TechFest2019/tree/adserver" className="fa fa-github-alt"> </a></h3>
+        <h3> Web Atlas: JavaScript - <a href="https://github.com/milespucarelli/Flatiron-TechFest2019/tree/adserver" className="fa fa-github-alt"> </a> <a href="http://media.licdn.com/embeds/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2F1Kr-_lcfLTQ%3Ffeature%3Doembed&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D1Kr-_lcfLTQ&amp;type=text%2Fhtml&amp;schema=youtube" className="fa fa-youtube"> </a></h3>
         <p className="project__caption"> Assist users with navigating the web by giving instructions when hovering over elements </p>
         <i className="fa fa-github-alt"> Used event listeners to highlights links, navigation elements, inputs, etc. to identify what parts of a site are interactive </i>
         <i className="fa fa-github-alt"> Incorporated a list of malware and ads to be filtered so when the element is hovered it will display a warning label </i>
       </div>
 
       <div className="project__container">
-        <h3> OhSnap: Ruby on Rails - <a href="https://github.com/lsamano/OhSnap" className="fa fa-github-alt"></a> <a href="https://agile-fjord-75909.herokuapp.com/login" className="fa fa-gamepad"></a></h3>
+        <h3> OhSnap: Ruby on Rails - <a href="https://github.com/lsamano/OhSnap" className="fa fa-github-alt"></a> <a href="https://agile-fjord-75909.herokuapp.com/login" className="fa fa-gamepad"></a> <a href="http://media.licdn.com/embeds/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FORTxjsZOac8%3Ffeature%3Doembed&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DORTxjsZOac8&amp;type=text%2Fhtml&amp;schema=youtube" className="fa fa-youtube"> </a></h3>
         <p className="project__caption"> Social media for photographers to upload their work and gain inspiration </p>
         <i className="fa fa-github-alt"> Implemented active storage for users to upload images files and have it saved to a model for other users to view </i>
         <i className="fa fa-github-alt"> Incorporated media query to make the app responsive and adapt to different screen resolutions </i>
