@@ -63,49 +63,6 @@ body {
   background-color: white;
 }
 
-
-@media screen and (max-width: 768px) {
-  body {
-    overflow-x: hidden;
-  }
-
-  .navbar__list {
-    width: 30%;
-    position: absolute;
-    right: 0px;
-    height: 92vh;
-    top: 8vh;
-    background-color: #121212;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    border-left: 1px solid #343434;
-    align-items: center;
-    transform: translateX(100%);
-    transition: transform 0.5s ease-in;
-  }
-
-  .navbar__list li {
-    opacity: 0;
-  }
-
-  .burger {
-    cursor: pointer;
-    margin-right: 5%;
-    display: block;
-  }
-
-  .burger div {
-    transition: all 0.3s ease;
-  }
-
-  .resume__container h2 {
-    color: black;
-    text-align: center;
-  }
-
-}
-
 .nav__active {
   transform: translateX(0%);
 }
@@ -248,14 +205,29 @@ body {
 /* END OF CONTACT */
 
 /* START OF HOME PAGE */
+.home__background {
+  background-image: url(./background/Gotham.jpg);
+  background-size: 100% 100%;
+  opacity: 0.4;
+  height: 100%;
+}
+
 .home__container {
   text-align: center;
-  margin-top: 20%;
+  height: 100vh;
+  /* margin-top: 20%; */
   font-size: 50px;
 }
 
-.home__container a {
-  text-decoration: none;
+.typist {
+  margin-top: -35%;
+  background: white;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.typist span {
+  color: black;
 }
 
 /* END OF HOME PAGE */
@@ -302,4 +274,47 @@ body {
     color: #0892d0;
   }
 }
+
 /* END OF PORTFOLIO */
+
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .navbar__list {
+    width: 30%;
+    position: absolute;
+    right: 0px;
+    height: 92vh;
+    top: 8vh;
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-left: 1px solid #343434;
+    align-items: center;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+  }
+
+  .navbar__list li {
+    opacity: 0;
+  }
+
+  .burger {
+    cursor: pointer;
+    margin-right: 5%;
+    display: block;
+  }
+
+  .burger div {
+    transition: all 0.3s ease;
+  }
+
+  .resume__container h2 {
+    color: black;
+    text-align: center;
+  }
+
+}

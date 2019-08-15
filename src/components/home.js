@@ -5,7 +5,9 @@ class Home extends Component {
   render() {
     return(
       <div className="home__container">
-        <Typist avgTypingDelay={100}>
+        <div className="home__background"></div>
+        <div className="typist">
+        <Typist avgTypingDelay={100} >
           <span> Hello my name is kha :/ </span>
             <Typist.Backspace count={8} delay={600} />
           <span> Kah :) </span>
@@ -14,6 +16,7 @@ class Home extends Component {
             <Typist.Backspace count={25} delay={70} />
             <span> I am a Full-Stack Developer :^) </span>
         </Typist>
+        </div>
       </div>
     )
   }
