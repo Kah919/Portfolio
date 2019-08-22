@@ -278,6 +278,7 @@ body {
     opacity: 1;
     width: 30%;
     position: absolute;
+    z-index: 100;
     right: 0px;
     height: 92vh;
     top: 8vh;
