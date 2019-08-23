@@ -323,3 +323,42 @@ body {
 }
 
 /* NAV BAR END */
+
+/* iPhone X in portrait & landscape */
+
+@media only screen and (min-device-width : 375px) and (max-device-width : 812px)and (-webkit-device-pixel-ratio : 3) {
+
+}
+
+/* iPhone X in portrait & landscape */
+
+
+ /* iPhone 6, 7, & 8 Plus in portrait & landscape */
+@media only screen and (min-device-width : 414px) and (max-device-width : 736px) {
+
+  .home__background {
+    background-image: url(./background/city.jpg);
+    background-size: 100% 100%;
+    opacity: 0.4;
+  }
+
+  .home__container {
+    text-align: center;
+    height: 100vh;
+    font-size: 14px;
+  }
+
+  .typist {
+    margin-top: -120%;
+    background: white;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  .typist span {
+    color: black;
+  }
+
+
+}
+/* iPhone 6, 7, & 8 Plus in portrait & landscape */
