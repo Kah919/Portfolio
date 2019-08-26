@@ -12,6 +12,10 @@ body {
   background-color: #232323;
 }
 
+html, body {
+  overflow-x:hidden
+}
+
 /* RESUME START */
 .fa:hover {
   transition: 0.3s ease;
@@ -109,7 +113,8 @@ body {
 
 /* START OF CONTACT */
 .contact__container {
-  position: fixed;
+  /* position: fixed; */
+  height: 100vh;
   font-size: 36px;
   top: 40%;
   left: 30%;
@@ -280,7 +285,7 @@ body {
     position: absolute;
     z-index: 100;
     right: 0px;
-    height: 92vh;
+    height: 500px;
     top: 8vh;
     background-color: #121212;
     display: flex;
@@ -335,6 +340,13 @@ body {
 
  /* iPhone 6, 7, & 8 Plus in portrait & landscape */
 @media only screen and (min-device-width : 414px) and (max-device-width : 736px) {
+  html, body {
+    overflow-x: hidden;
+  }
+
+  body {
+    position: relative;
+  }
 
   .home__background {
     background-image: url(./background/city.jpg);
@@ -359,6 +371,51 @@ body {
     color: black;
   }
 
+  .contact__container {
+    background-image: url(./background/pug.jpg);
+    background-size: 90% 80%;
+    height: 80vh;
+    font-size: 22px;
+    line-height: 2em;
+    text-align: center;
+  }
+
+  .contact__container a, span {
+    margin-top: 30px;
+    color: black;
+  }
+
+  .portfolio__container {
+    text-align: center;
+    position: relative;
+    margin-top: 55%;
+    height: 100%;
+
+  }
+
+  .portfolio__container span {
+    display: block;
+
+  }
+
+  .text1 {
+    font-size: 84px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    position: relative;
+    background-color: #232323;
+    animation: text 3s 1;
+    padding: 0;
+    color: white
+  }
+
+  .text2 {
+    font-size: 30px;
+    margin-top: 3%;
+    margin-bottom: 20%;
+    letter-spacing: 10px;
+    color: #0892d0;
+  }
 
 }
 /* iPhone 6, 7, & 8 Plus in portrait & landscape */
