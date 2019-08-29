@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-// import Gallery from './gallery'
-// import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 class Portfolio extends Component {
   render() {
