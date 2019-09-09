@@ -5,7 +5,7 @@ import Project from './projects'
 
 class Portfolio extends Component {
   state = {
-    project: true
+    project: false
   }
 
   showProject = () => {
@@ -17,7 +17,7 @@ class Portfolio extends Component {
       this.setState({
         project: true
       })
-    }, 4000);
+    }, 3000);
   }
 
   render() {

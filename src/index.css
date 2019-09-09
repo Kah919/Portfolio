@@ -224,7 +224,7 @@ html, body {
 /* START OF PORTFOLIO */
 .portfolio__grid {
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  /* grid-template-rows: 1fr 1fr; */
 }
 
 .portfolio__container {

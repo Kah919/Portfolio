@@ -8,6 +8,9 @@ import friends from '../background/friends.png';
 import ohsnap1 from '../background/ohsnap1.png';
 import ohsnap2 from '../background/ohsnap2.png';
 import ohsnap3 from '../background/ohsnap3.png';
+import stock1 from '../background/stock1.png';
+import stock2 from '../background/stock2.png';
+
 
 
 class Projects extends Component {
@@ -37,7 +40,7 @@ class Projects extends Component {
 
         <div className="project">
           <div className="description">
-            <h1> OhSnap! </h1>
+            <h1> ÖhSnap </h1>
             <h3> A place for passionate photograhers to share their work </h3>
             <br></br>
             <p> Follow your favorite photographers and customize your news feed! </p>
@@ -50,6 +53,23 @@ class Projects extends Component {
               <div data-src={ohsnap1} />
               <div data-src={ohsnap2} />
               <div data-src={ohsnap3} />
+            </AwesomeSlider>
+          </div>
+        </div>
+
+        <div className="project">
+          <div className="description">
+            <h1> Stock Simulator </h1>
+            <h3> Practice buying stocks with this realtime simulator </h3>
+            <br></br>
+            <p> Create an account with a starting balance of $5000 </p>
+            <p> Watch how your investments change in realtime  </p>
+          </div>
+
+          <div className="project__image">
+            <AwesomeSlider>
+              <div data-src={stock1} />
+              <div data-src={stock2} />
             </AwesomeSlider>
           </div>
         </div>
