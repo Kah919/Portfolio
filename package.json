@@ -5,7 +5,9 @@
   "private": true,
   "dependencies": {
     "carousel": "0.0.3",
+    "pure-react-carousel": "^1.22.0",
     "react": "^16.8.6",
+    "react-awesome-slider": "^1.0.1",
     "react-dom": "^16.8.6",
     "react-responsive-carousel": "^3.1.50",
     "react-router-dom": "^5.0.1",
