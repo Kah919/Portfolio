@@ -39,7 +39,10 @@ class Projects extends Component {
           <div className="description">
             <h1> OhSnap! </h1>
             <h3> A place for passionate photograhers to share their work </h3>
-            oh
+            <br></br>
+            <p> Follow your favorite photographers and customize your news feed! </p>
+            <p> Post your favorite pictures to share with others. </p>
+            <p> Check out the updates and new posts in real time! </p>
           </div>
 
           <div className="project__image">

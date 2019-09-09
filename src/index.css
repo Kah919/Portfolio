@@ -130,19 +130,31 @@ html, body {
 .project__image {
   width: 97%;
   border-radius: 2%;
+  /* border: 1px solid white; */
+  box-shadow: 5px 8px black;
   margin: 0 auto;
 }
+
+.project__image:hover, .description:hover {
+  border: 1px solid white;
+  box-shadow: 10px 10px black;
+}
+
+
 
 .description {
   width: 97%;
   background-color: #121212;
   border-radius: 2%;
+  /* border: 1px solid white; */
+  box-shadow: 5px 8px black;
   padding: 10px;
   color: white;
 }
 
 .description h1 {
   text-align: center;
+  margin-top: 10%;
 }
 
 .description h3, p {
