@@ -168,7 +168,7 @@ html, body {
 
 .contact__container {
   /* position: fixed; */
-  background-image: url(./background/pigeons.jpeg);
+  background-image: url(./background/rain.gif);
   background-size: 100% 100%;
   height: 100vh;
   font-size: 36px;
@@ -178,18 +178,45 @@ html, body {
   right: 30%;
   line-height: 2em;
   text-align: center;
+  box-sizing: border-box;
 }
 
 .contact__container a {
   text-decoration: none;
-  margin-top: 20%;
   width: 20%;
 }
 
-.contact__container span {
-  margin-left: 0.5%;
-  margin-right: 0.5%
+.icons a {
+  background: #232323;
+  display: inline-flex;
+  font-size: 56px;
+  width: 90px;
+  height: 90px;
+  margin-right: 20px;
+  margin-left: 20px;
+  border-radius: 35%;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s all;
 }
+
+.icons a:hover {
+  background: #add8e6;
+  color: #e8f4f8;
+  border-radius: 50%;
+  font-size: 24px;
+}
+
+.icons:hover {
+  font-size: 34px;
+}
+
+.type {
+  width: 32%;
+  margin: 12% auto 2% auto;
+  border-bottom: 1px solid white;
+}
+
 
 
 /* END OF CONTACT */
@@ -594,3 +621,7 @@ html, body {
 
 }
 /* iPhone 6, 7, & 8 Plus in portrait & landscape */
+
+.resume__container p {
+  color: black;
+}

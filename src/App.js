@@ -17,7 +17,7 @@ function App() {
             <Route path="/home" render={() => <Home />} />
             <Route path="/portfolio" render={() => <Portfolio />} />
             <Route path="/resume" render={() => <Resume />} />
-            <Route path="/contact" render={() => <StarWars />} />
+            <Route path="/contact" render={() => <Contact />} />
           </Switch>
       </Router >
     </div>
