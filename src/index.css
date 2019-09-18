@@ -216,9 +216,6 @@ html, body {
   margin: 12% auto 2% auto;
   border-bottom: 1px solid white;
 }
-
-
-
 /* END OF CONTACT */
 
 /* START OF HOME PAGE */
@@ -547,14 +544,66 @@ html, body {
     background-image: url(./background/pug.jpg);
     background-size: 90% 80%;
     height: 100vh;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 2em;
     text-align: center;
   }
 
   .contact__container a, span {
-    margin-top: 30px;
-    color: black;
+    margin-top: 10px;
+    color: white;
+  }
+
+  /* .icons a {
+    background: #232323;
+    display: inline-flex;
+    font-size: 36px;
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 35%;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s all;
+  } */
+
+  .resume__container i {
+    letter-spacing: 0;
+  }
+
+  .project__container {
+    border-bottom: 1px solid black;
+  }
+
+  .project__container p {
+    display: none;
+  }
+
+  .project__container h3 {
+    font-size: 24px;
+    margin-bottom: 3%;
+    margin-top: 3%;
+  }
+
+  .project__container i {
+    font-size: 16px;
+  }
+
+  .work__container h2, .work__container h4 {
+    margin: 0 auto;
+  }
+
+  .hide {
+    display: none;
+  }
+
+
+  .type {
+    width: 70%;
+    font-size: 20px;
+    margin: 12% auto 2% auto;
+    border-bottom: 1px solid white;
   }
 
   .portfolio__container {
@@ -562,7 +611,6 @@ html, body {
     position: relative;
     margin-top: 55%;
     height: 100%;
-
   }
 
   .portfolio__container span {
@@ -617,6 +665,34 @@ html, body {
     line-height: 300%;
     perspective: 500px;
     text-align: justify;
+  }
+
+  .project {
+    display: grid;
+    width: 100%;
+    grid-template-areas:
+    "description description"
+    "project project";
+  }
+
+  .description {
+    grid-area: description;
+    margin-bottom: 10%;
+  }
+
+  .description p {
+    font-size: 14px;
+    display: none;
+  }
+
+  .description h3 {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .project__image {
+    grid-area: project;
+    margin-bottom: 20%;
   }
 
 }

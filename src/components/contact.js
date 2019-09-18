@@ -13,7 +13,6 @@ class Contact extends Component {
   }
 
   click = e => {
-    console.log("setting state", e.target.classList)
     this.setState({
       print: e.target.classList.contains("fa-phone") ? "718-708-1881" : "kahyap13@gmail.com"
     })
@@ -22,13 +21,12 @@ class Contact extends Component {
   render() {
     return(
       <div className="contact__container">
-
         <div className="icons">
           {this.state.print ? this.type() : <p className="type">You can contact me on</p>}
           <a href="https://github.com/kah919" className="fa fa-github-alt" />
           <a href="https://www.linkedin.com/in/kah-m-yap/" className="fa fa-linkedin" />
-          <a className="fa fa-phone" onClick={this.click}/>
-          <a className="fa fa-envelope" onClick={this.click}/>
+          <a className="fa fa-phone" onMouseEnter={this.click}/>
+          <a className="fa fa-envelope" onMouseEnter={this.click}/>
         </div>
       </div>
     )
