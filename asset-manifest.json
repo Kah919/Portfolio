@@ -1,15 +1,27 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.bf826848.chunk.css",
-    "main.js": "/Portfolio/static/js/main.d871f1f5.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.d871f1f5.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.40155745.chunk.css",
+    "main.js": "/Portfolio/static/js/main.0d21db77.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.0d21db77.chunk.js.map",
     "runtime~main.js": "/Portfolio/static/js/runtime~main.132fbc8c.js",
     "runtime~main.js.map": "/Portfolio/static/js/runtime~main.132fbc8c.js.map",
-    "static/js/2.5f25e66b.chunk.js": "/Portfolio/static/js/2.5f25e66b.chunk.js",
-    "static/js/2.5f25e66b.chunk.js.map": "/Portfolio/static/js/2.5f25e66b.chunk.js.map",
+    "static/css/2.152b4737.chunk.css": "/Portfolio/static/css/2.152b4737.chunk.css",
+    "static/js/2.f0c9c0ba.chunk.js": "/Portfolio/static/js/2.f0c9c0ba.chunk.js",
+    "static/js/2.f0c9c0ba.chunk.js.map": "/Portfolio/static/js/2.f0c9c0ba.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.42fb5b1fe275aee3a5bf50747c10b925.js": "/Portfolio/precache-manifest.42fb5b1fe275aee3a5bf50747c10b925.js",
+    "precache-manifest.1d8d42ab500e5ca43f3ea43456df909d.js": "/Portfolio/precache-manifest.1d8d42ab500e5ca43f3ea43456df909d.js",
     "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/main.bf826848.chunk.css.map": "/Portfolio/static/css/main.bf826848.chunk.css.map"
+    "static/css/2.152b4737.chunk.css.map": "/Portfolio/static/css/2.152b4737.chunk.css.map",
+    "static/css/main.40155745.chunk.css.map": "/Portfolio/static/css/main.40155745.chunk.css.map",
+    "static/media/index.css": "/Portfolio/static/media/rain.2070f812.gif",
+    "static/media/food.png": "/Portfolio/static/media/food.5cfef205.png",
+    "static/media/friends.png": "/Portfolio/static/media/friends.b61e97ca.png",
+    "static/media/hangry.png": "/Portfolio/static/media/hangry.629461c0.png",
+    "static/media/nasi.png": "/Portfolio/static/media/nasi.0cb352df.png",
+    "static/media/ohsnap1.png": "/Portfolio/static/media/ohsnap1.c3af0009.png",
+    "static/media/ohsnap2.png": "/Portfolio/static/media/ohsnap2.48171d98.png",
+    "static/media/ohsnap3.png": "/Portfolio/static/media/ohsnap3.2d986ff7.png",
+    "static/media/stock1.png": "/Portfolio/static/media/stock1.59e18e85.png",
+    "static/media/stock2.png": "/Portfolio/static/media/stock2.4bb258ce.png"
   }
 }
