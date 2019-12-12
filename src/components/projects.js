@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
 import nasi from '../background/nasi.png';
@@ -13,8 +13,7 @@ import stock2 from '../background/stock2.png';
 
 
 
-class Projects extends Component {
-  render() {
+export default props => {
     return(
       <div className="projects__container">
 
@@ -76,7 +75,6 @@ class Projects extends Component {
 
       </div>
     )
-  }
+  
 }
 
-export default Projects;
