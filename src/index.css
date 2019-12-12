@@ -508,7 +508,7 @@ html, body {
 
 
  /* iPhone 6, 7, & 8 Plus in portrait & landscape */
-@media only screen and (min-device-width : 414px) and (max-device-width : 736px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 736px) {
   html, body {
     overflow-x: hidden;
   }
@@ -553,20 +553,6 @@ html, body {
     margin-top: 10px;
     color: white;
   }
-
-  /* .icons a {
-    background: #232323;
-    display: inline-flex;
-    font-size: 36px;
-    width: 60px;
-    height: 60px;
-    margin-right: 20px;
-    margin-left: 20px;
-    border-radius: 35%;
-    justify-content: center;
-    align-items: center;
-    transition: 0.3s all;
-  } */
 
   .resume__container i {
     letter-spacing: 0;
