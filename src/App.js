@@ -5,7 +5,6 @@ import Home from './components/home';
 import Portfolio from './components/portfolio';
 import Resume from './components/resume';
 import Contact from './components/contact';
-import StarWars from './components/starwars';
 
 
 function App() {
