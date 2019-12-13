@@ -18,6 +18,7 @@ importScripts(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   "/Portfolio/precache-manifest.1d8d42ab500e5ca43f3ea43456df909d.js"
 =======
   "/Kah919/Portfolio/precache-manifest.108997d93cfa81c369fef6d6ef51b92d.js"
@@ -31,6 +32,9 @@ importScripts(
 =======
   "/Portfolio/precache-manifest.1d8d42ab500e5ca43f3ea43456df909d.js"
 >>>>>>> Updates
+=======
+  "/Portfolio/precache-manifest.1d8d42ab500e5ca43f3ea43456df909d.js"
+>>>>>>> fa7c4580dc64294437b0038b82b7596c515c8a3f
 );
 
 self.addEventListener('message', (event) => {
@@ -51,6 +55,7 @@ workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/Portfolio/index.html"), {
 =======
 workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/Kah919/Portfolio/index.html"), {
@@ -58,6 +63,9 @@ workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/K
 =======
 workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/Portfolio/index.html"), {
 >>>>>>> Updates
+=======
+workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/Portfolio/index.html"), {
+>>>>>>> fa7c4580dc64294437b0038b82b7596c515c8a3f
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
