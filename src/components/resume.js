@@ -17,6 +17,13 @@ const Resume = () => {
       </p>
 
       <h2> Technical Project </h2>
+
+      <div className="project__container">
+        <h3> NameRater: MongoDB | Express | React | Node </h3>
+        <p className="project__caption"> How popular is your name? </p>
+        <i className="fa fa-github-alt"> Implemented MongoDB to store the database of names from the Social Security Administration </i>
+      </div>
+
       <div className="project__container">
         <h3> Hangry: React | Ruby on Rails - <a href="https://github.com/Kah919/mod5-hangry-frontend" className="fa fa-github-alt"> </a> <a href="http://media.licdn.com/embeds/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FiGV7HZYQ4ck%3Ffeature%3Doembed&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DiGV7HZYQ4ck&amp;type=text%2Fhtml&amp;schema=youtube" className="fa fa-youtube"> </a> </h3>
         <p className="project__caption"> See what recipes you can make and what your friends are craving </p>
@@ -53,6 +60,21 @@ const Resume = () => {
 
       <div className="project__container">
         <div className="work__container">
+          <h2> Lurik Labs</h2>
+          <h2 className="hide"> Flushing, NY </h2>
+        </div>
+
+        <div className="work__container">
+          <h4> Web Developer Intern </h4>
+          <h4 className="hide"> October 2019 - Present </h4>
+        </div>
+
+        <i className="fa fa-github-alt"> Design and develop user-friendly website by creating multiple components within React </i>
+        <i className="fa fa-github-alt"> Improve SEO and user accessibility with the use of Meta Tags and mobile responsiveness </i>
+      </div>
+
+      <div className="project__container">
+        <div className="work__container">
           <h2> Crystal Windows</h2>
           <h2 className="hide"> Flushing, NY </h2>
         </div>
@@ -62,8 +84,8 @@ const Resume = () => {
           <h4 className="hide"> May 2017 – September 2017 </h4>
         </div>
 
-        <i className="fa fa-github-alt"> Implemented active storage for users to upload images files and have it saved to a model for other users to view </i>
-        <i className="fa fa-github-alt"> Incorporated media query to make the app responsive and adapt to different screen resolutions </i>
+        <i className="fa fa-github-alt"> Coordinated with production, shipping, and warehouse department to ensure timely completion of client orders </i>
+        <i className="fa fa-github-alt"> Created blueprints of product designs, dimensions, and cost of client’s order for the production team to manufacture </i>
       </div>
 
       <div className="project__container">
