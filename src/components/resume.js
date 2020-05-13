@@ -1,8 +1,6 @@
 import React from 'react';
 
 const Resume = () => {
-
-
   return(
     <div className="resume__container">
       <h1 className="resume__name"> Kah Yap </h1>
@@ -11,17 +9,24 @@ const Resume = () => {
 
       <h2> Summary </h2>
       <p>
-        Full stack web developer with a passion to create practical apps that put a smile on people’s face.
-        With experience in Ruby, Ruby on Rails, JavaScript, React, Redux and a background in psychology and sales,
-        I strive to incorporate easy to navigate UI and user friendly features.
+        Full stack web developer with a passion for learning and creating web apps that put a smile on people’s face.
+        My goal is to one day improve the lives of others with the lines of code that I write and mentor others in coding.
       </p>
 
       <h2> Technical Project </h2>
 
       <div className="project__container">
+        <h3> NameRater: React </h3>
+        <p className="project__caption"> View global data and timeline from the COVID-19 Pandemic </p>
+        <i className="fa fa-github-alt"> Incorporated a svg map of the USA that allows users to view data on the state that was clicked </i>
+        <i className="fa fa-github-alt"> Implemented tables, charts, graphs, and timelines for visual tracking of the spread of COVID-19 </i>
+      </div>
+
+      <div className="project__container">
         <h3> NameRater: MongoDB | Express | React | Node </h3>
         <p className="project__caption"> How popular is your name? </p>
-        <i className="fa fa-github-alt"> Implemented MongoDB to store the database of names from the Social Security Administration </i>
+        <i className="fa fa-github-alt"> Used MERN stack to create a database of first names from the Social Security Administration </i>
+        <i className="fa fa-github-alt"> Incorporated React Hooks to easily manipulate state without creating class components </i>
       </div>
 
       <div className="project__container">
@@ -53,8 +58,9 @@ const Resume = () => {
       </div>
 
       <h2> Technical Skills </h2>
-      <i className="fa fa-laptop"> Programming: HTML/CSS, SQL, Ruby, Ruby on Rails, JavaScript, and React/Redux </i>
-      <i className="fa fa-laptop"> Technology: GitHub, Postman, Bootstrap, Semantic UI, Gimp, RawTherapee, and Lightroom </i>
+      <i className="fa fa-laptop"> Programming: HTML/CSS, JavaScript, React/Redux, Node, Express, Ruby, Ruby on Rails </i>
+      <i className="fa fa-laptop"> Technology: GitHub, Git, Postman, MongoDB, Mongoose, Bootstrap, Semantic UI, Jira, Heroku, Jest, Gimp,
+      RawTherapee, Lightroom </i>
 
       <h2> Professional Experience </h2>
 
@@ -66,10 +72,10 @@ const Resume = () => {
 
         <div className="work__container">
           <h4> Web Developer Intern </h4>
-          <h4 className="hide"> October 2019 - Present </h4>
+          <h4 className="hide"> October 2019 - February 2020 </h4>
         </div>
 
-        <i className="fa fa-github-alt"> Design and develop user-friendly website by creating multiple components within React </i>
+        <i className="fa fa-github-alt"> Create functional React components of Figma files from the graphic designs team </i>
         <i className="fa fa-github-alt"> Improve SEO and user accessibility with the use of Meta Tags and mobile responsiveness </i>
       </div>
 
