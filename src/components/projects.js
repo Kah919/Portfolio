@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
 import nasi from '../background/nasi.png';
 import hangry from '../background/hangry.png';
