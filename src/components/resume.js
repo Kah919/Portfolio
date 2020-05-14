@@ -5,7 +5,7 @@ const Resume = () => {
     <div className="resume__container">
       <h1 className="resume__name"> Kah Yap </h1>
       <h5> (718) 708-1881 | kahyap13@gmail.com </h5>
-      <h5> <a href="https://github.com/kah919" className="fa fa-github-alt"> GitHub </a> | <a href="https://www.linkedin.com/in/kah-m-yap/" className="fa fa-linkedin-square"> LinkedIn </a> | <a href="https://medium.com/@kahyap13" className="fa fa-medium"> Medium </a> </h5>
+      <h5> <a href="https://github.com/kah919" className="fa fa-github-alt streak"> GitHub </a> | <a href="https://www.linkedin.com/in/kah-m-yap/" className="fa fa-linkedin-square streak"> LinkedIn </a> | <a href="https://medium.com/@kahyap13" className="fa fa-medium streak"> Medium </a> </h5>
 
       <h2> Summary </h2>
       <p>
@@ -16,9 +16,7 @@ const Resume = () => {
       <h2> Technical Project </h2>
 
       <div className="project__container">
-        <h3> NameRater: React - 
-          <a href="https://github.com/Kah919/COVID-19-Visualizer" className="fa fa-github-alt"></a> 
-          <a href="https://kah919.github.io/COVID-19-Visualizer/" className="fa fa-gamepad"></a>
+        <h3 className="streak"> COVID-19 Visualizer: React - <a href="https://github.com/Kah919/COVID-19-Visualizer" className="fa fa-github-alt"></a> <a href="https://kah919.github.io/COVID-19-Visualizer/" className="fa fa-gamepad"></a>
         </h3>
 
         <p className="project__caption"> View global data and timeline from the COVID-19 Pandemic </p>
@@ -27,8 +25,7 @@ const Resume = () => {
       </div>
 
       <div className="project__container">
-        <h3> NameRater: MongoDB | Express | React | Node - 
-          <a href="https://github.com/Kah919/NameRater" className="fa fa-github-alt"></a>
+        <h3 className="streak"> NameRater: MongoDB | Express | React | Node - <a href="https://github.com/Kah919/NameRater" className="fa fa-github-alt"></a>
         </h3>
 
         <p className="project__caption"> How popular is your name? </p>
@@ -37,9 +34,7 @@ const Resume = () => {
       </div>
 
       <div className="project__container">
-        <h3> Hangry: React | Ruby on Rails - 
-          <a href="https://github.com/Kah919/mod5-hangry-frontend" className="fa fa-github-alt"> </a> 
-          <a href="http://media.licdn.com/embeds/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FiGV7HZYQ4ck%3Ffeature%3Doembed&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DiGV7HZYQ4ck&amp;type=text%2Fhtml&amp;schema=youtube" className="fa fa-youtube"> </a> 
+        <h3 className="streak"> Hangry: React | Ruby on Rails - <a href="https://github.com/Kah919/mod5-hangry-frontend" className="fa fa-github-alt"> </a> <a href="http://media.licdn.com/embeds/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FiGV7HZYQ4ck%3Ffeature%3Doembed&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DiGV7HZYQ4ck&amp;type=text%2Fhtml&amp;schema=youtube" className="fa fa-youtube"> </a> 
         </h3>
 
         <p className="project__caption"> See what recipes you can make and what your friends are craving </p>
@@ -48,9 +43,7 @@ const Resume = () => {
       </div>
 
       <div className="project__container">
-        <h3> Web Stock: React | Ruby on Rails - 
-          <a href="https://github.com/Kah919/ttp-fs-frontend" className="fa fa-github-alt"> </a> 
-          <a href="https://stocks-simulator-front.herokuapp.com/" className="fa fa-gamepad"></a>
+        <h3 className="streak"> Web Stock: React | Ruby on Rails - <a href="https://github.com/Kah919/ttp-fs-frontend" className="fa fa-github-alt"> </a> <a href="https://stocks-simulator-front.herokuapp.com/" className="fa fa-gamepad"></a>
         </h3>
 
         <p className="project__caption"> Buy stocks at their current price and watch how your stocks grow over time </p>
@@ -59,9 +52,7 @@ const Resume = () => {
       </div>
 
       <div className="project__container">
-        <h3> Web Atlas: JavaScript - 
-          <a href="https://github.com/milespucarelli/Flatiron-TechFest2019/tree/adserver" className="fa fa-github-alt"> </a> 
-          <a href="http://media.licdn.com/embeds/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2F1Kr-_lcfLTQ%3Ffeature%3Doembed&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D1Kr-_lcfLTQ&amp;type=text%2Fhtml&amp;schema=youtube" className="fa fa-youtube"> </a>
+        <h3 className="streak"> Web Atlas: JavaScript - <a href="https://github.com/milespucarelli/Flatiron-TechFest2019/tree/adserver" className="fa fa-github-alt"> </a> <a href="http://media.licdn.com/embeds/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2F1Kr-_lcfLTQ%3Ffeature%3Doembed&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D1Kr-_lcfLTQ&amp;type=text%2Fhtml&amp;schema=youtube" className="fa fa-youtube"> </a>
         </h3>
 
         <p className="project__caption"> Assist users with navigating the web by giving instructions when hovering over elements </p>
@@ -70,9 +61,7 @@ const Resume = () => {
       </div>
 
       <div className="project__container">
-        <h3> OhSnap: Ruby on Rails - 
-          <a href="https://github.com/lsamano/OhSnap" className="fa fa-github-alt"></a> 
-          <a href="https://agile-fjord-75909.herokuapp.com/login" className="fa fa-gamepad"></a> <a href="http://media.licdn.com/embeds/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FORTxjsZOac8%3Ffeature%3Doembed&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DORTxjsZOac8&amp;type=text%2Fhtml&amp;schema=youtube" className="fa fa-youtube"> </a>
+        <h3 className="streak"> OhSnap: Ruby on Rails - <a href="https://github.com/lsamano/OhSnap" className="fa fa-github-alt"></a> <a href="https://agile-fjord-75909.herokuapp.com/login" className="fa fa-gamepad"></a> <a href="http://media.licdn.com/embeds/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FORTxjsZOac8%3Ffeature%3Doembed&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DORTxjsZOac8&amp;type=text%2Fhtml&amp;schema=youtube" className="fa fa-youtube"> </a>
         </h3>
         
         <p className="project__caption"> Social media for photographers to upload their work and gain inspiration </p>

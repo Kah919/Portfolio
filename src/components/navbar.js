@@ -32,7 +32,7 @@ class Navbar extends Component {
         {this.renderRedirect()}
         <div className="logo"> KY </div>
         <div className={this.state.active ? "navbar__list nav__active navbar__li__active" : "navbar__list"}>
-          <li className="navLinkFade" onClick={this.redirect}> Home </li>
+          <li className="navLinkFade streak" onClick={this.redirect}> Home </li>
           <li className="navLinkFade" onClick={this.redirect}> Resume </li>
           <li className="navLinkFade" onClick={this.redirect}> Portfolio </li>
           <li className="navLinkFade" onClick={this.redirect}> Contact </li>

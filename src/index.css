@@ -17,9 +17,29 @@ html, body {
 }
 
 /* RESUME START */
-.fa:hover {
-  transition: 0.3s ease;
-  color: pink;
+.streak {
+  /* transition: 0.8s ease;
+  color: pink; */
+  display: inline-block;
+  position: relative;
+}
+
+.streak::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.streak:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 .resume__container {
@@ -402,7 +422,7 @@ html, body {
 }
 
 .logo:hover {
-  transition: 0.3s ease;
+  transition: 0.8s ease;
   color: #343434;
   border-color: #343434;
 }
@@ -415,7 +435,7 @@ html, body {
 }
 
 .navbar__list li:hover {
-  transition: 0.3s ease;
+  transition: 0.8s ease;
   color: #343434;
   border-color: #343434;
 }
@@ -454,7 +474,7 @@ html, body {
     position: absolute;
     z-index: 100;
     right: 0px;
-    height: 500px;
+    height: 90vh;
     top: 8vh;
     background-color: #121212;
     display: flex;
@@ -559,7 +579,7 @@ html, body {
   }
 
   .project__container {
-    border-bottom: 1px solid black;
+    margin-bottom: 60px;
   }
 
   .project__container p {
