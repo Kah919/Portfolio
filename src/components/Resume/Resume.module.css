@@ -1,4 +1,4 @@
-.resume__name {
+.contact h1 {
     font-size: 5em;
     text-align: center;
     padding: 20px;
@@ -12,17 +12,18 @@
     margin-bottom: 10px;
 }
 
-.resume__container h2, h3, h4, p, i {
-    color: black;
-    margin-top: 2%;
-    margin-left: 20%;
-    margin-right: 20%;
-  }
+.resume__container p {
+  color: black;
+  margin-left: 20%;
+  margin-right: 20%;
+}
   
 .resume__container h2 {
     background-color: black;
-    padding: 0.5%;
+    padding: 0.8%;
     color: white;
+    margin-left: 20%;
+    margin-right: 20%;
 }
   
   
@@ -35,4 +36,26 @@
 .flatiron h2 {
     color: pink !important;
 }
+
+.bullet {
+  display: flex;
+  padding: 5px;
+}
+
+.bullet span {
+  color: black;
+  margin-left: 20%;
+  font-size: 20px;
+}
+
+
+
+.bullet p {
+  text-align: left !important;
+  padding: 5px;
+  margin: 0;
+  margin-left: 1%;
+  margin-right: 20%;
+}
+
 
