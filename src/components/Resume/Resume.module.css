@@ -10,7 +10,7 @@
     color: black;
     text-align: center;
     margin-bottom: 10px;
-  }
+}
 
 .resume__container h2, h3, h4, p, i {
     color: black;
@@ -19,11 +19,11 @@
     margin-right: 20%;
   }
   
-  .resume__container h2 {
+.resume__container h2 {
     background-color: black;
     padding: 0.5%;
     color: white;
-  }
+}
   
   
   .resume__container a {

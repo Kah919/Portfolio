@@ -2,19 +2,15 @@ import React from 'react';
 import styles from './Resume.module.css';
 import cx from 'classnames';
 import Education from './Education';
+import Summary from './Summary';
+import Contact from './Contact';
 
 const Resume = () => {
   return(
     <div className={ styles.resume__container }>
-      <h1 className={ styles.resume__name }> Kah Yap </h1>
-      <h5> (718) 708-1881 | kahyap13@gmail.com </h5>
-      <h5> <a href="https://github.com/kah919" className="fa fa-github-alt streak"> GitHub </a> | <a href="https://www.linkedin.com/in/kah-m-yap/" className="fa fa-linkedin-square streak"> LinkedIn </a> | <a href="https://medium.com/@kahyap13" className="fa fa-medium streak"> Medium </a> </h5>
-
-      <h2> Summary </h2>
-      <p>
-        Full stack web developer with a passion for learning and creating web apps that put a smile on people’s face.
-        My goal is to one day improve the lives of others with the lines of code that I write and mentor others in coding.
-      </p>
+      
+      <Contact />
+      <Summary />
 
       <h2> Technical Project </h2>
 
