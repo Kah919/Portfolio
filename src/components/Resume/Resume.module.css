@@ -1,0 +1,38 @@
+.resume__name {
+    font-size: 5em;
+    text-align: center;
+    padding: 20px;
+    color: black;
+}
+
+
+.resume__container h5 {
+    color: black;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+.resume__container h2, h3, h4, p, i {
+    color: black;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  
+  .resume__container h2 {
+    background-color: black;
+    padding: 0.5%;
+    color: white;
+  }
+  
+  
+  .resume__container a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+.flatiron h2 {
+    color: pink !important;
+}
+
