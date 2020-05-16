@@ -1,8 +1,8 @@
 .contact h1 {
-    font-size: 5em;
-    text-align: center;
-    padding: 20px;
-    color: black;
+  font-size: 5em;
+  text-align: center;
+  padding: 20px;
+  color: black;
 }
 
 .container {
@@ -53,15 +53,49 @@
 
 .bullet span {
   color: black;
-  margin-top: 3px;
   font-size: 30px;
+  padding: 1px;
 }
 
 .bullet p {
   text-align: left !important;
   padding: 5px;
   margin: 0;
-  margin-left: 1%;
+}
+
+.project__container {
+  padding-bottom: 1%;
+  margin-bottom: 3%;
+  display: inline-block;
+  position: relative;
+}
+
+.project__container a {
+  font-size: 24px;
+}
+
+.project__container a:hover {
+  position: absolute;
+  font-size: 80px;
+  transition: 0.5s;
+}
+
+.project__container::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 5px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.project__container:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 .project__container h3 {

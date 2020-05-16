@@ -72,7 +72,7 @@ export default props => {
             ],
             bullets: [
                 'Implemented active storage for users to upload images files and have it saved to a model for other users to view',
-                'Incorporated a list of malware and ads to be filtered so when the element is hovered it will display a warning label',
+                'Incorporated media query to make the app responsive and adapt to different screen resolutions',
             ],
         },
     ]
@@ -82,7 +82,7 @@ export default props => {
 
         return projectData.map(project => 
             <div className={ styles.project__container}>
-                    <h3 className="streak"> { project.name }  
+                    <h3> { project.name }  
                     { createLinks(project.links) }
                     </h3>
                     
