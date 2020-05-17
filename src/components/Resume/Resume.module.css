@@ -8,6 +8,7 @@
 .container {
   padding: 20px;
   color: black;
+  margin-bottom: 20px;
 }
 
 .summary {
@@ -100,6 +101,17 @@
 
 .project__container h3 {
   color:black;
+}
+
+.education {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.education h3 {
+  color: black;
 }
 
 
